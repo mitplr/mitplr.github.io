@@ -14,7 +14,7 @@ The mission of the MIT PL Review is to highlight recent developments that we bel
 We will be holding the PL Review on May 30, 2023 at MIT in the Ray and Maria Stata Center (32 Vassar Street), room 32-155.
 The event will begin at 9:00am with talks starting at 10:00am and concluding at 5:00pm.
 Virtual attendees can participate though our Slack workspace and attend talks via Zoom.
-[Register now!](https://mit.co1.qualtrics.com/jfe/form/SV_7Qy1V7rAlX1IASi)
+Please [register](https://mit.co1.qualtrics.com/jfe/form/SV_7Qy1V7rAlX1IASi) by May 15 to participate.
 
 # Schedule
 
