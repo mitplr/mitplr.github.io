@@ -39,6 +39,8 @@ Time | Event
 
 ## Satisfiability modulo fuzzing: a synergistic combination of SMT solving and fuzzing
 
+### Authors: Sujit Kumar Muduli, Subhajit Roy
+
 Programming languages and software engineering tools routinely encounter components that are difficult to reason on via formal techniques or whose formal semantics are not even available—third-party libraries, inline assembly code, SIMD instructions, system calls, calls to machine learning models, etc. However, often access to these components is available as input-output oracles—interfaces are available to query these components on certain inputs to receive the respective outputs. We refer to such functions as closed-box functions. Regular SMT solvers are unable to handle such closed-box functions.
 
 We propose Sādhak, a solver for SMT theories modulo closed-box functions. Our core idea is to use a synergistic combination of a fuzzer to reason on closed-box functions and an SMT engine to solve the constraints pertaining to the SMT theories. The fuzz and the SMT engines attempt to converge to a model by exchanging a rich set of interface constraints that are relevant and interpretable by them. Our implementation, Sādhak, demonstrates a significant advantage over the only other solver that is capable of handling such closed-box constraints: Sādhak solves 36.45% more benchmarks than the best-performing mode of this state-of-the-art solver and has 5.72x better PAR-2 score; on the benchmarks that are solved by both tools, Sādhak is (on an average) 14.62x faster.
@@ -50,6 +52,8 @@ Notes from the program committee:
 Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3563332)
 
 ## Staged Compilation with Two-Level Type Theory
+
+### Authors: András Kovács
   
 The aim of staged compilation is to enable metaprogramming in a way such that we have guarantees about the well-formedness of code output, and we can also mix together object-level and meta-level code in a concise and convenient manner. In this work, we observe that two-level type theory (2LTT), a system originally devised for the purpose of developing synthetic homotopy theory, also serves as a system for staged compilation with dependent types. 2LTT has numerous good properties for this use case: it has a concise specification, well-behaved model theory, and it supports a wide range of language features both at the object and the meta level. First, we give an overview of 2LTT's features and applications in staging. Then, we present a staging algorithm and prove its correctness. Our algorithm is "staging-by-evaluation", analogously to the technique of normalization-by-evaluation, in that staging is given by the evaluation of 2LTT syntax in a semantic domain. The staging algorithm together with its correctness constitutes a proof of strong conservativity of 2LLT over the object theory. To our knowledge, this is the first description of staged compilation which supports full dependent types and unrestricted staging for types.
   
@@ -62,6 +66,8 @@ Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3547641)
 
 ## A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference
 
+### Authors: Antonio Vergari, YooJung Choi, Anji Liu, Stefano Teso, Guy Van den Broeck
+
 Circuit representations are becoming the lingua franca to express and reason about tractable generative and discriminative models. In this paper, we show how complex inference scenarios for these models that commonly arise in machine learning---from computing the expectations of decision tree ensembles to information-theoretic divergences of sum-product networks---can be represented in terms of tractable modular operations over circuits. Specifically, we characterize the tractability of simple transformations---sums, products, quotients, powers, logarithms, and exponentials---in terms of sufficient structural constraints of the circuits they operate on, and present novel hardness results for the cases in which these properties are not satisfied. Building on these operations, we derive a unified framework for reasoning about tractable models that generalizes several results in the literature and opens up novel tractable inference scenarios.
   
 Notes from the program committee:
@@ -73,6 +79,8 @@ Read the paper [here](https://proceedings.neurips.cc/paper_files/paper/2021/hash
 
 ## The Role of Working Memory in Program Tracing
 
+### Authors: Will Crichton, Maneesh Agrawala, Pat Hanrahan
+
 Program tracing, or mentally simulating a program on concrete inputs, is an important part of general program comprehension. Programs involve many kinds of virtual state that must be held in memory, such as variable/value pairs and a call stack. In this work, we examine the influence of short-term working memory (WM) on a person’s ability to remember program state during tracing. We first confirm that previous findings in cognitive psychology transfer to the programming domain: people can keep about 7 variable/value pairs in WM, and people will accidentally swap associations between variables due to WM load. We use a restricted focus viewing interface to further analyze the strategies people use to trace through programs, and the relationship of tracing strategy to WM. Given a straight-line program, we find half of our participants traced a program from the top-down line-by-line (linearly), and the other half start at the bottom and trace upward based on data dependencies (on-demand). Participants with an on-demand strategy made more WM errors while tracing straight-line code than with a linear strategy, but the two strategies contained an equal number of WM errors when tracing code with functions. We conclude with the implications of these findings for the design of programming tools: first, programs should be analyzed to identify and refactor human-memory-intensive sections of code. Second, programming environments should interactively visualize variable metadata to reduce WM load in accordance with a person’s tracing strategy. Third, tools for program comprehension should enable externalizing program state while tracing.
 
 Notes from the program committee:
@@ -83,6 +91,8 @@ Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3411764.3445257)
 
 ## Predictable Accelerator Design with Time-Sensitive Affine Types
 
+### Authors: Rachit Nigam, Sachille Atapattu, Samuel Thomas, Zhijing Li, Theodore Bauer, Yuwei Ye, Apurva Koti, Adrian Sampson, Zhiru Zhang
+
 Field-programmable gate arrays (FPGAs) provide an opportunity to co-design applications with hardware accelerators, yet they remain difficult to program. High-level synthesis (HLS) tools promise to raise the level of abstraction by compiling C or C++ to accelerator designs. Repurposing legacy software languages, however, requires complex heuristics to map imperative code onto hardware structures. We find that the black-box heuristics in HLS can be unpredictable: changing parameters in the program that should improve performance can counterintuitively yield slower and larger designs. This paper proposes a type system that restricts HLS to programs that can predictably compile to hardware accelerators. The key idea is to model consumable hardware resources with a time-sensitive affine type system that prevents simultaneous uses of the same hardware structure. We implement the type system in Dahlia, a language that compiles to HLS C++, and show that it can reduce the size of HLS parameter spaces while accepting Pareto-optimal designs.
 
 Notes from the program committee:
@@ -92,6 +102,8 @@ Notes from the program committee:
 Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3385412.3385974)
 
 ## PDL: A High-Level Hardware Design Language for Pipelined Processors
+
+### Authors: Drew Zagieboylo, Charles Sherk, Gookwon Edward Suh, Andrew C. Myers  
 
 Processors are typically designed in Register Transfer Level (RTL) languages, which give designers low-level control over circuit structure and timing. To achieve good performance, processors are pipelined, with multiple instructions executing concurrently in different parts of the circuit. Thus even though processors implement a fundamentally sequential specification (the instruction set architecture), the implementation is highly concurrent. The interactions of multiple instructions—potentially speculative—can cause incorrect behavior.
 
@@ -106,6 +118,8 @@ Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3519939.3523455)
 
 ## A Flexible Type System for Fearless Concurrency
 
+### Authors: Mae Milano, Joshua Turcotti, Andrew C. Myers
+
 This paper proposes a new type system for concurrent programs, allowing threads to exchange complex object graphs without risking destructive data races. While this goal is shared by a rich history of past work, existing solutions either rely on strictly enforced heap invariants that prohibit natural programming patterns or demand pervasive annotations even for simple programming tasks. As a result, past systems cannot express intuitively simple code without unnatural rewrites or substantial annotation burdens. Our work avoids these pitfalls through a novel type system that provides sound reasoning about separation in the heap while remaining flexible enough to support a wide range of desirable heap manipulations. This new sweet spot is attained by enforcing a heap domination invariant similarly to prior work, but tempering it by allowing complex exceptions that add little annotation burden. Our results include: (1) code examples showing that common data structure manipulations which are difficult or impossible to express in prior work are natural and direct in our system, (2) a formal proof of correctness demonstrating that well-typed programs cannot encounter destructive data races at run time, and (3) an efficient type checker implemented in Gallina and OCaml.
 
 Notes from the program committee:
@@ -116,6 +130,8 @@ Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3519939.3523443)
 
 ## Frequent Background Polling on a Shared Thread, using Light-Weight Compiler Interrupts
 
+### Authors: Nilanjana Basu, Claudio Montanari, Jakob Eriksson
+
 Recent work in networking, storage and multi-threading has demonstrated improved performance and scalability by replacing kernel-mode interrupts with high-rate user-space polling. Typically, such polling is performed by a dedicated core. Compiler Interrupts (CIs) instead enable efficient, automatic high-rate polling on a shared thread, which performs other work between polls. CIs are instrumentation-based and light-weight, allowing frequent interrupts with little performance impact. For example, when targeting a 5,000 cycle interval, the median overhead of our fastest CI design is 4% vs. 800% for hardware interrupts, across programs in the SPLASH-2, Phoenix and Parsec benchmark suites running with 32 threads. We evaluate CIs on three systems-level applications: (a) kernel bypass networking with mTCP, (b) joint kernel bypass networking and CPU scheduling with Shenango, and (c) delegation, a message-passing alternative to locking, with FFWD. For each application, we find that CIs offer compelling qualitative and quantitative improvements over the current state of the art. For example, CI-based mTCP achieves ≈2× stock mTCP throughput on a sample HTTP application.
 
 Notes from the program committee:
@@ -125,6 +141,8 @@ Notes from the program committee:
 Read the paper [here](https://dl.acm.org/doi/10.1145/3453483.3454107)
 
 ## You Only Linearize Once
+
+### Authors: Alexey Radul, Adam Paszke, Roy Frostig, Matthew J. Johnson, Dougal Maclaurin
 
 Automatic differentiation (AD) is conventionally understood as a family of distinct algorithms, rooted in two “modes”—forward and reverse—which are typically presented (and implemented) separately. Can there be only one? Following up on the AD systems developed in the JAX and Dex projects, we formalize a decomposition of reverse-mode AD into (i) forward-mode AD followed by (ii) unzipping the linear and non-linear parts and then (iii) transposition of the linear part.
 
