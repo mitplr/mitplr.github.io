@@ -20,20 +20,20 @@ Virtual attendees can participate though our Slack workspace and attend talks vi
 
 Time | Event
 ---|---
-9-9:45 | Breakfast |
+9:00-9:45 | Breakfast |
 9:45-10:00 | Opening Remarks
-10-10:30 | Satisfiability modulo fuzzing: a synergistic combination of SMT solving and fuzzing
+10:00-10:30 | Satisfiability modulo fuzzing: a synergistic combination of SMT solving and fuzzing
 10:30-11 | Staged Compilation with Two-Level Type Theory
-11-11:30 | A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference 
+11:00-11:30 | A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference 
 11:30-12:30 | Lunch
-12:30-1 | The Role of Working Memory in Program Tracing
-1-1:30 | Predictable Accelerator Design with Time-Sensitive Affine Types
-1:30-2 | Frequent Background Polling on a Shared Thread, using Light-Weight Compiler Interrupts
-2-2:30 | Coffee Break
-2:30-3 | PDL: A High-Level Hardware Design Language for Pipelined Processors
-3-3:30 | A Flexible Type System for Fearless Concurrency
-3:30-4 | You Only Linearize Once
-4-5 | MIT Faculty Panel: *Future of Programming Languages*
+12:30-1:00 | The Role of Working Memory in Program Tracing
+1:00-1:30 | Predictable Accelerator Design with Time-Sensitive Affine Types
+1:30-2:00 | Frequent Background Polling on a Shared Thread, using Light-Weight Compiler Interrupts
+2:00-2:30 | Coffee Break
+2:30-3:00 | PDL: A High-Level Hardware Design Language for Pipelined Processors
+3:00-3:30 | A Flexible Type System for Fearless Concurrency
+3:30-4:00 | You Only Linearize Once
+4:00-5:00 | MIT Faculty Panel: *Future of Programming Languages*
 
 # Selected Papers
 
