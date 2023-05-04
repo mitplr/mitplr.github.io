@@ -23,7 +23,7 @@ Time | Event
 9:00-9:45 | Breakfast |
 9:45-10:00 | Opening Remarks
 10:00-10:30 | Satisfiability modulo fuzzing: a synergistic combination of SMT solving and fuzzing
-10:30-11 | Staged Compilation with Two-Level Type Theory
+10:30-11:00 | Staged Compilation with Two-Level Type Theory
 11:00-11:30 | A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference 
 11:30-12:30 | Lunch
 12:30-1:00 | The Role of Working Memory in Program Tracing
