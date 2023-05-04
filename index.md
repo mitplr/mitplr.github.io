@@ -74,6 +74,14 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/pdf/10.1145/3519939.3523443)
 
+## Frequent Background Polling on a Shared Thread, using Light-Weight Compiler Interrupts
+
+Notes from the program committee:
+
+> This paper brings the attention of the PL community towards advances in hardware and recent trends in systems research. We believe this paper provides an example of how compiler techniques can be used to remove the cost of abstractions that were previously handled at runtime by hardware. We also hope this work will motivate further exploration of more such use cases for compiler techniques. 
+
+Read the paper [here](https://dl.acm.org/doi/10.1145/3453483.3454107)
+
 ## A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference
 
 Notes from the program committee:
