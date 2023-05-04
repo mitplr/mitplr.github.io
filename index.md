@@ -34,13 +34,13 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/pdf/10.1145/3547641)
 
-## You Only Linearize Once
+## A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference
 
 Notes from the program committee:
 
-> The principled application of type theory in this paper yields one of the cleanest frameworks for deep learning. We believe there is much untapped research potential within ML for PL researchers, and are excited to see more work of a similar flavor in the coming years.
+> This paper stands out for its axiomatic approach, and we appreciate that its theoretical contributions will be palatable to a wide audience. It also provides a solid foundation for future developments in probabilistic circuits, a class of efficient probabilistic programs. We hope that this work can motivate the programming languages community to explore ways in which the techniques from our field apply to the domain of inference.
 
-Read the paper [here](https://dl.acm.org/doi/pdf/10.1145/3571236)
+Read the paper [here](https://proceedings.neurips.cc/paper_files/paper/2021/hash/6e01383fd96a17ae51cc3e15447e7533-Abstract.html)
 
 ## The Role of Working Memory in Program Tracing
 
@@ -82,13 +82,14 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/10.1145/3453483.3454107)
 
-## A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference
+## You Only Linearize Once
 
 Notes from the program committee:
 
-> This paper stands out for its axiomatic approach, and we appreciate that its theoretical contributions will be palatable to a wide audience. It also provides a solid foundation for future developments in probabilistic circuits, a class of efficient probabilistic programs. We hope that this work can motivate the programming languages community to explore ways in which the techniques from our field apply to the domain of inference.
+> The principled application of type theory in this paper yields one of the cleanest frameworks for deep learning. We believe there is much untapped research potential within ML for PL researchers, and are excited to see more work of a similar flavor in the coming years.
 
-Read the paper [here](https://proceedings.neurips.cc/paper_files/paper/2021/hash/6e01383fd96a17ae51cc3e15447e7533-Abstract.html)
+Read the paper [here](https://dl.acm.org/doi/pdf/10.1145/3571236)
+
 
 # Schedule
 
@@ -97,7 +98,7 @@ Time | Event
 9-10 | Breakfast |
 10-10:30 | Satisfiability modulo fuzzing: a synergistic combination of SMT solving and fuzzing
 10:30-11 | Staged Compilation with Two-Level Type Theory
-11-11:30 | You Only Linearize Once
+11-11:30 | A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference 
 11:30-12:30 | Lunch
 12:30-1 | The Role of Working Memory in Program Tracing
 1-1:30 | Predictable Accelerator Design with Time-Sensitive Affine Types
@@ -105,7 +106,7 @@ Time | Event
 2-2:30 | Coffee Break
 2:30-3 | PDL: A High-Level Hardware Design Language for Pipelined Processors
 3-3:30 | A Flexible Type System for Fearless Concurrency
-3:30-4 | A Compositional Atlas of Tractable Circuit Operations for Probabilistic Inference
+3:30-4 | You Only Linearize Once
 4-5 | MIT Faculty Panel: *Future of Programming Languages*
 
 # PL Review Program Committee
