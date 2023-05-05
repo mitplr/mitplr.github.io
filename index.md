@@ -5,7 +5,7 @@
 #layout: home
 ---
 
-![MIT Programming Languages Review logo](mitplr2023.png)
+![MIT Programming Languages Review logo](mitplr2023.png){: width="90%" }
 
 # MIT Programming Languages Review
 
