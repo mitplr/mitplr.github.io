@@ -35,8 +35,8 @@ Time | Event
 3:30-4:00 | You Only Linearize Once
 4:00-5:00 | MIT Faculty Panel: *Future of Programming Languages*
 
-# Selected Papers<sup>*</sup>
-<sup>*</sup> *To avoid conflicts of interest, no MIT affiliated papers were considered.*
+# Selected Papers<sup>\*</sup>
+<sup>\*</sup>*To avoid conflicts of interest, no MIT affiliated papers were considered.*
 
 ## Satisfiability modulo fuzzing: a synergistic combination of SMT solving and fuzzing
 
