@@ -23,7 +23,6 @@ title: MIT PL Review 2023
 description: >- # this means to ignore newlines until "baseurl:"
     This is the website for the MIT PL Review 2023.
     We will be hosting the PL Review on May 30, both in-person and virtually.
-    <a href="https://mit.co1.qualtrics.com/jfe/form/SV_7Qy1V7rAlX1IASi" style="color:#C30000">Register now!</a>
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
