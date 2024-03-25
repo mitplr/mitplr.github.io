@@ -13,6 +13,7 @@ The mission of the MIT PL Review is to highlight recent developments that we bel
 
 We will be holding the PL Review on May 4, 2024 at MIT in the Ray and Maria Stata Center (32 Vassar Street), room 32-155.
 Please stay tuned for the full program of selected papers and registration details!
+You can see last year's program [[ here | mitplr2023.md ]].
 
 # PL Review Program Committee
 
