@@ -96,7 +96,17 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/pdf/10.1145/3591302)
 
-## To Be Confirmed
+## Bit-Stealing Made Legal
+
+### Authors: Thaïs Baudon, Gabriel Radanne, Laure Gonnord
+
+Initially present only in functional languages such as OCaml and Haskell, Algebraic Data Types (ADTs) have now become pervasive in mainstream languages, providing nice data abstractions and an elegant way to express functions through pattern matching. Unfortunately, ADTs remain seldom used in low-level programming. One reason is that their increased convenience comes at the cost of abstracting away the exact memory layout of values. Even Rust, which tries to optimize data layout, severely limits control over memory representation. In this article, we present a new approach to specify the data layout of rich data types based on a dual view: a source type, providing a high-level description available in the rest of the code, along with a memory type, providing full control over the memory layout. This dual view allows for better reasoning about memory layout, both for correctness, with dedicated validity criteria linking the two views, and for optimizations that manipulate the memory view. We then provide algorithms to compile constructors and destructors, including pattern matching, to their low-level memory representation. We prove our compilation algorithms correct, implement them in a tool called ribbit that compiles to LLVM IR, and show some early experimental results.
+
+Notes from the program committee:
+
+> This work introduces a type system and a principled, compilation technique for expressing storage format choices and optimizations for algebraic datatypes in a high-level language. This not only improves efficiency of the compiled functional programs, but also provides a degree of control and expressivity that is often only found and implemented ad-hoc in low-level, systems-oriented language. We believe this work and any future works like it are invaluable in expanding capabilities of functional programming by improving the performance capabilities and expressivity.
+
+Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3607858)
 
 ## To Be Confirmed
 
