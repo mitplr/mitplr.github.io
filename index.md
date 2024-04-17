@@ -108,9 +108,29 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3607858)
 
-## To Be Confirmed
+## Algebraic Effects Meet Hoare Logic in Cubical Agda
 
-## To Be Confirmed
+### Authors: Donnacha Oisín Kidney, Zhixuan Yang, Nicolas Wu
+
+This paper presents a novel formalisation of algebraic effects with equations in Cubical Agda. Unlike previous work in the literature that employed setoids to deal with equations, the library presented here uses quotient types to faithfully encode the type of terms quotiented by laws. Apart from tools for equational reasoning, the library also provides an effect-generic Hoare logic for algebraic effects, which enables reasoning about effectful programs in terms of their pre- and post- conditions. A particularly novel aspect is that equational reasoning and Hoare-style reasoning are related by an elimination principle of Hoare logic.
+
+Notes from the program committee:
+
+> This work proves a correspondence between two major approaches to handling effects. It does so in a generic way by operating on a theory of algebraic effects, formalized as syntax quotiented by equations. We believe that this work opens up opportunities to combine lessons, techniques, and advantages from both styles of semantics.
+
+Read the paper [here](https://dl.acm.org/doi/10.1145/3632898)
+
+## Efficient Bottom-Up Synthesis for Programs with Local Variables
+
+### Authors: Xiang Li, Xiangyu Zhou, Rui Dong, Yihong Zhang, Xinyu Wang
+
+We propose a new synthesis algorithm that can efficiently search programs with local variables (e.g., those introduced by lambdas). Prior bottom-up synthesis algorithms are not able to evaluate programs with free local variables, and therefore cannot effectively reduce the search space of such programs (e.g., using standard observational equivalence reduction techniques), making synthesis slow. Our algorithm can reduce the space of programs with local variables. The key idea, dubbed lifted interpretation, is to lift up the program interpretation process, from evaluating one program at a time to simultaneously evaluating all programs from a grammar. Lifted interpretation provides a mechanism to systematically enumerate all binding contexts for local variables, thereby enabling us to evaluate and reduce the space of programs with local variables. Our ideas are instantiated in the domain of web automation. The resulting tool, Arborist, can automate a significantly broader range of challenging tasks more efficiently than state-of-the-art techniques including WebRobot and Helena.
+
+Notes from the program committee:
+
+> This work introduces a technique for synthesizing terms with local variables, such as lambdas and loops, in a bottom-up fashion based on finite tree automata by generalizing the program synthesis concept of observational equivalence. We believe that this work will greatly expand the domain of language features that bottom-up synthesis can support.
+
+Read the paper [here](https://dl.acm.org/doi/10.1145/3632894)
 
 # PL Review Program Committee
 
