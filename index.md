@@ -14,8 +14,25 @@ The mission of the MIT PL Review is to highlight recent developments that we bel
 [Registration is now open!](https://mit.co1.qualtrics.com/jfe/form/SV_dlZXiXeYScmhc9M)
 
 We will be holding the PL Review on May 4, 2024 at MIT in the Ray and Maria Stata Center (32 Vassar Street), room 32-155.
-Please stay tuned for the full program of selected papers!
 You can see last year's program [here](plr2023.md).
+
+# Schedule
+
+Time | Event
+---|---
+9:00-10:00 | Breakfast |
+10:00-10:30 | Prompting Is Programming: A Query Language for Large Language Models
+10:30-11:00 | Bit-Stealing Made Legal
+11:00-11:30 | Efficient Bottom-Up Synthesis for Programs with Local Variables
+11:30-12:30 | Lunch
+12:30-1:00 | Guided Equality Saturation
+1:00-1:30 | Algebraic Effects Meet Hoare Logic in Cubical Agda
+1:30-2:00 | An Extensible User Interface for Lean 4
+2:00-2:30 | Coffee Break
+2:30-3:00 | Register Tiling for Unstructured Sparsity in Neural Network Inference
+3:00-3:30 | Better Together: Unifying Datalog and Equality Saturation
+3:30-4:00 | Instruction Scheduling for the GPU on the GPU
+4:00-5:00 | PL Faculty Panel
 
 # Selected Papers<sup>\*</sup>
 <sup>\*</sup>*To avoid conflicts of interest, no MIT affiliated papers were considered.*
