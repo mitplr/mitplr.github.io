@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: MIT PL Review 2024
+title: MIT PL Review 2025
 #email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-    This is the website for the MIT PL Review 2024.
-    We will be hosting the PL Review on May 4th, both in-person and virtually.
+    This is the website for the MIT PL Review 2025.
+    We will be hosting the PL Review on April 25th, both in-person and virtually.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
