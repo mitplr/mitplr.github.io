@@ -25,5 +25,5 @@ You can see last year's program [here](plr2024.md).
 - Derek Leung
 - Alex Lew
 - Amanda Liu (Conference Chair)
-- Jaeyeon Won
 - Logan Weber
+- Jaeyeon Won
