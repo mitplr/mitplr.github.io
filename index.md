@@ -86,7 +86,17 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3591280)
 
-## *Paper Pending*
+## Lilac: A Modal Separation Logic for Conditional Probability
+
+### Authors: John M. Li, Amal Ahmed, Steven Holtzen
+
+We present Lilac, a separation logic for reasoning about probabilistic programs where separating conjunction captures probabilistic independence. Inspired by an analogy with mutable state where sampling corresponds to dynamic allocation, we show how probability spaces over a fixed, ambient sample space appear to be the natural analogue of heap fragments, and present a new combining operation on them such that probability spaces behave like heaps and measurability of random variables behaves like ownership. This combining operation forms the basis for our model of separation, and produces a logic with many pleasant properties. In particular, Lilac has a frame rule identical to the ordinary one, and naturally accommodates advanced features like continuous random variables and reasoning about quantitative properties of programs. Then we propose a new modality based on disintegration theory for reasoning about conditional probability. We show how the resulting modal logic validates examples from prior work, and give a formal verification of an intricate weighted sampling algorithm whose correctness depends crucially on conditional independence structure.
+
+Notes from the program committee:
+
+> This paper presents a separation logic for probabilistic programs, in which (as in several pioneering papers on probabilistic separation logic) separation is interpreted as probabilistic independence. The key innovations here are (1) a new modality for reasoning about conditional independence, and (2) a new and non-trivial insight about the right way to instantiate the analogy between heap disjointness and independence. In particular, the paper proposes that the right analogy for a heap is a probability space; the right analogy for heap extension is refinement of the probability space's sigma-algebra; the right analogy for ownership is measurability with respect to the probability space; and the right analogy for the disjoint union of heaps is the independent combination of probability spaces. Setting things up in this way leads to clean proof rules, including a direct analogue of the usual frame rule. Lilac has already influenced newer work on probabilistic program logics, and we expect many future efforts to reason formally about probabilistic programs will benefit from its insights.
+
+Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3591226)
 
 ## *Paper Pending*
 
