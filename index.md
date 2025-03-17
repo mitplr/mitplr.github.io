@@ -110,8 +110,6 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/10.1145/3586037)
 
-Please stay tuned for more 2025 program details!
-
 You can see last year's program [here](plr2024.md).
 
 # PL Review Program Committee
