@@ -98,7 +98,17 @@ Notes from the program committee:
 
 Read the paper [here](https://dl.acm.org/doi/abs/10.1145/3591226)
 
-## *Paper Pending*
+## Verus: Verifying Rust Programs using Linear Ghost Types
+
+### Authors: Andrea Lattuada, Travis Hance, Chanhee Cho, Matthias Brun, Isitha Subasinghe, Yi Zhou, Jon Howell, Bryan Parno, Chris Hawblitzel
+
+The Rust programming language provides a powerful type system that checks linearity and borrowing, allowing code to safely manipulate memory without garbage collection and making Rust ideal for developing low-level, high-assurance systems. For such systems, formal verification can be useful to prove functional correctness properties beyond type safety. This paper presents Verus, an SMT-based tool for formally verifying Rust programs. With Verus, programmers express proofs and specifications using the Rust language, allowing proofs to take advantage of Rust's linear types and borrow checking. We show how this allows proofs to manipulate linearly typed permissions that let Rust code safely manipulate memory, pointers, and concurrent resources. Verus organizes proofs and specifications using a novel mode system that distinguishes specifications, which are not checked for linearity and borrowing, from executable code and proofs, which are checked for linearity and borrowing. We formalize Verus' linearity, borrowing, and modes in a small lambda calculus, for which we prove type safety and termination of specifications and proofs. We demonstrate Verus on a series of examples, including pointer-manipulating code (an xor-based doubly linked list), code with interior mutability, and concurrent code.
+
+Notes from the program committee:
+
+> This work demonstrates the viability of linear types and borrowing in practical, automated systems verification at scale. Specifically, it shows that they synergize with the style of interactive theorem prover currently best-represented by Dafny, improving both tool performance and ease of reasoning. We expect verification efforts based on Verus or similar systems to benefit from these advantages as compared to Dafny developments and it has already had a positive impact on several research systems.
+
+Read the paper [here](https://dl.acm.org/doi/10.1145/3586037)
 
 Please stay tuned for more 2025 program details!
 
