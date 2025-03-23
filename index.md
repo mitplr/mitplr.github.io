@@ -12,7 +12,7 @@
 [Registration](https://mit.co1.qualtrics.com/jfe/form/SV_3aR7xGFs4fYigg6) is now open for the annual MIT PLR Workshop 2025!
 Join us in-person or virtually a fresh lineup of talks and and excitigin discussion with authors of potentially high-impact, significant works published in recent years at venues!
 This year's selected papers are listed below.
-For in-person attendance, we will be holding the PL Review on **April 24th**, 2025 at MIT building 34 (50 Vassar St, Cambridge, MA) in the Grier Room (34-401).
+For in-person attendance, we will be holding the PL Review on **Friday April 25th**, 2025 at MIT building 34 (50 Vassar St, Cambridge, MA) in the Grier Room (34-401).
 
 The mission of the MIT PL Review is to highlight recent developments that we believe have significant potential to shape the future direction of PL research and/or industry practice. We aim to select papers that may substantially transform the PL community and beyond, with a focus on emerging trends rather than established lines of research. We favor papers whose contributions are broadly accessible (and likely to be appreciated) across the PL community, but we do not limit the papers to those published at PL venues. Our selection process is not meant to provide an objective evaluation of works but rather to highlight and celebrate works that resonated with our committee members.
 
