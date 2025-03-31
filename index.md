@@ -16,6 +16,23 @@ For in-person attendance, we will be holding the PL Review on **Friday April 25t
 
 The mission of the MIT PL Review is to highlight recent developments that we believe have significant potential to shape the future direction of PL research and/or industry practice. We aim to select papers that may substantially transform the PL community and beyond, with a focus on emerging trends rather than established lines of research. We favor papers whose contributions are broadly accessible (and likely to be appreciated) across the PL community, but we do not limit the papers to those published at PL venues. Our selection process is not meant to provide an objective evaluation of works but rather to highlight and celebrate works that resonated with our committee members.
 
+# Schedule
+
+Time | Event
+---|---
+10:00-10:30 | Check-In and Opening Remarks |
+10:30-11:00 | Outcome Logic: A Unifying Foundation for Correctness and Incorrectness Reasoning
+11:00-11:30 | A Two-Phase Infinite/Finite Low-Level Memory Model
+11:30-12:00 | Verus: Verifying Rust Programs using Linear Ghost Types
+12:00-1:00 | Lunch
+1:00-1:30 | Scallop: A Language for Neurosymbolic Programming
+1:30-2:00 | Knowledge Transfer from High-Resource to Low-Resource Programming Languages for Code LLMs
+2:00-2:30 | Lilac: A Modal Separation Logic for Conditional Probability
+2:30-3:00 | Coffee Break
+3:00-3:30 | MiniMalloc: A Lightweight Memory Allocator for Hardware-Accelerated Machine Learning
+3:30-4:00 | PyTorch 2: Faster Machine Learning Through Dynamic Python Bytecode Transformation and Graph Compilation
+4:00-5:00 | PL "Mixture of Experts" Panel
+
 # Selected Papers<sup>\*</sup>
 <sup>\*</sup>*To avoid conflicts of interest, no MIT affiliated papers were considered.*
 
