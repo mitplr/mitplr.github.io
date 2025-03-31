@@ -10,7 +10,7 @@
 # MIT Programming Languages Review Workshop
 
 [Registration](https://mit.co1.qualtrics.com/jfe/form/SV_3aR7xGFs4fYigg6) is now open for the annual MIT PLR Workshop 2025!
-Join us in-person or virtually a fresh lineup of talks and and excitigin discussion with authors of potentially high-impact, significant works published in recent years at venues!
+Join us in-person or virtually for a fresh lineup of talks and exciting discussion with authors of potentially high-impact, significant works published in recent years at venues!
 This year's selected papers are listed below.
 For in-person attendance, we will be holding the PL Review on **Friday April 25th**, 2025 at MIT building 34 (50 Vassar St, Cambridge, MA) in the Grier Room (34-401).
 
