@@ -22,5 +22,5 @@ The MIT PLR Workshop 2026 will be held on May 8th! Stay tuned for our selected p
 - Kavi Gupta (Program Chair)
 - Dustin Jamner
 - Amanda Liu 
-- Jiazheng (Elvis) Liu (Conference Chair)
+- Jiazheng Liu (Conference Chair)
 - Upamanyu Sharma
