@@ -9,28 +9,31 @@
 
 # MIT Programming Languages Review Workshop
 
-The mission of the MIT PL Review is to highlight recent developments that we believe have significant potential to shape the future direction of PL research and/or industry practice. We aim to select papers that may substantially transform the PL community and beyond, with a focus on emerging trends rather than established lines of research. We favor papers whose contributions are broadly accessible (and likely to be appreciated) across the PL community, but we do not limit the papers to those published at PL venues. Our selection process is not meant to provide an objective evaluation of works but rather to highlight and celebrate works that resonated with our committee members.
+[Registration](https://forms.gle/kbDrMCRXUeX2STgXA) is now open for the annual MIT PLR Workshop 2026!
+Join us in-person or virtually for a fresh lineup of talks and exciting discussion with authors of potentially high-impact, significant works published in recent years at venues!
+This year's selected papers are listed below.
+For in-person attendance, we will be holding the PL Review on **Friday April 8th**, 2026 at MIT building 34 (50 Vassar St, Cambridge, MA) in the Grier Room (34-401).
 
-The MIT PLR Workshop 2026 will be held on May 8th! Stay tuned for our selected papers, program details, and registration information to be announced soon! In the meantime you can see last year's program [here](plr2025.md).
+The mission of the MIT PL Review is to highlight recent developments that we believe have significant potential to shape the future direction of PL research and/or industry practice. We aim to select papers that may substantially transform the PL community and beyond, with a focus on emerging trends rather than established lines of research. We favor papers whose contributions are broadly accessible (and likely to be appreciated) across the PL community, but we do not limit the papers to those published at PL venues. Our selection process is not meant to provide an objective evaluation of works but rather to highlight and celebrate works that resonated with our committee members.
 
 # Schedule
 
 Time | Event
 ---|---
 9:00-9:30 | Check-In and Opening Remarks |
-9:30-9:55 | Divergence-Aware Testing of Graphics Shader Compiler Back-Ends
-9:55-10:20 | An Interactive Debugger for Rust Trait Errors
-10:20-11:45 | Still Asking: How Good Are Query Optimizers, Really?
+9:30-9:55 | [Divergence-Aware Testing of Graphics Shader Compiler Back-Ends](https://dl.acm.org/doi/10.1145/3729305)
+9:55-10:20 | [An Interactive Debugger for Rust Trait Errors](https://dl.acm.org/doi/10.1145/3729302)
+10:20-11:45 | [Still Asking: How Good Are Query Optimizers, Really?](https://dl.acm.org/doi/10.14778/3750601.3760521)
 10:45-11:20 | Coffee Break
-11:20-11:45 | CF-GKAT: Efficient Validation of Control-Flow Transformations
-11:45-12:10 | Type Theory in Type Theory using a Strictified Syntax
+11:20-11:45 | [CF-GKAT: Efficient Validation of Control-Flow Transformations](https://dl.acm.org/doi/10.1145/3704857)
+11:45-12:10 | [Type Theory in Type Theory using a Strictified Syntax](https://dl.acm.org/doi/10.1145/3747535)
 12:10-1:20 | Lunch
-1:20-1:45 | Compiling Classical Sequent Calculus to Stock Hardware
-1:45-2:10 | Optimizing Datalog for GPU
-2:10-2:35 | Revamping Verilog Semantics for Foundational Verification
+1:20-1:45 | [Compiling Classical Sequent Calculus to Stock Hardware](https://dl.acm.org/doi/10.1145/3720507)
+1:45-2:10 | [Optimizing Datalog for GPU](https://dl.acm.org/doi/10.1145/3669940.3707274)
+2:10-2:35 | [Revamping Verilog Semantics for Foundational Verification](https://dl.acm.org/doi/10.1145/3763084)
 2:35-3:10 | Coffee Break
-3:10-3:35 | Prompts Are Programs Too! Understanding How Developers Build Software Containing Prompts
-3:35-4:00 | Programming by Navigation
+3:10-3:35 | [Prompts Are Programs Too! Understanding How Developers Build Software Containing Prompts](https://dl.acm.org/doi/10.1145/3729342)
+3:35-4:00 | [Programming by Navigation](https://dl.acm.org/doi/10.1145/3729264)
 4:00-5:00 | "All-Stars" Panel
 
 # Selected Papers<sup>\*</sup>
@@ -171,7 +174,7 @@ Notes from the program committee:
 Read the paper [here](https://dl.acm.org/doi/10.1145/3729264)
 
 
-You can see last year's program [here](plr2024.md).
+You can see last year's program [here](plr2025.md).
 
 # PL Review Program Committee
 
