@@ -23,7 +23,7 @@ Time | Event
 9:00-9:30 | Check-In and Opening Remarks |
 9:30-9:55 | [Divergence-Aware Testing of Graphics Shader Compiler Back-Ends](https://dl.acm.org/doi/10.1145/3729305)
 9:55-10:20 | [An Interactive Debugger for Rust Trait Errors](https://dl.acm.org/doi/10.1145/3729302)
-10:20-11:45 | [Still Asking: How Good Are Query Optimizers, Really?](https://dl.acm.org/doi/10.14778/3750601.3760521)
+10:20-10:45 | [Still Asking: How Good Are Query Optimizers, Really?](https://dl.acm.org/doi/10.14778/3750601.3760521)
 10:45-11:20 | Coffee Break
 11:20-11:45 | [CF-GKAT: Efficient Validation of Control-Flow Transformations](https://dl.acm.org/doi/10.1145/3704857)
 11:45-12:10 | [Type Theory in Type Theory using a Strictified Syntax](https://dl.acm.org/doi/10.1145/3747535)
